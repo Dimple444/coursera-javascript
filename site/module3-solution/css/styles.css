@@ -1,0 +1,103 @@
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #a09f9f;
+  border-radius: 0;
+  border: 2px solid #000;
+}
+a.navbar-brand {
+  height: auto;
+}
+.navbar-brand h1 {
+  color: #000;
+  font-weight: bold;
+  margin: 0;
+}
+.navbar-header button.navbar-toggle {
+  border: 1px solid #000;
+}
+.navbar-header .icon-bar {
+  border: 2px solid #000;
+}
+.navbar-default .mobile-navbar {
+  background-color: #fff;
+}
+.navbar-default .navbar-collapse {
+  border-color: #000;
+}
+#nav-list {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#nav-list > li {
+  border-bottom: 1px solid #000;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color: #a09f9f;
+}
+/* End Header */
+
+#menu-heading {
+  margin: 0 0 30px 0;
+  font-weight: 700;
+}
+.menu-tiles {
+  background-color: #a5a3a3;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.menu-subheading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+.menu-subheading + p {
+  margin-top: 10px;
+}
+a.underline-link {
+  text-decoration: underline;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+  }
+  /* End Header */
+
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+
+}
